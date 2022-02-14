@@ -1,0 +1,326 @@
+@import url('https://fonts.googleapis.com/css2?family=Akaya+Telivigala&display=swap');
+* {
+    margin: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    --aka: 'Akaya Telivigala', cursive;
+}
+
+body {
+    background-color: #000;
+    position: relative;
+}
+
+.program h1 {
+    background-color: #ddd;
+    display: inline-block;
+    margin-left: 500px;
+    position: absolute;
+    left: auto;
+    animation-name: web;
+    animation-play-state: running;
+    animation-duration: 0.4s;
+    animation-fill-mode: forwards;
+}
+
+@keyframes web {
+    from {
+        top: -200px;
+    }
+    to {
+        top: 45px;
+    }
+}
+
+.end h1 {
+    font: bold 30px var(--aka);
+    color: black;
+    width: 300px;
+    text-align: center;
+    border-radius: 30px;
+    padding: 6px;
+    background-color: grey;
+    display: inline-block;
+    position: absolute;
+    top: 160px;
+    left: 100px;
+    animation-name: ends;
+    animation-play-state: running;
+    animation-duration: 1s;
+    animation-fill-mode: forwards;
+}
+
+@keyframes ends {
+    from {
+        left: -300px;
+    }
+    to {
+        left: 250px;
+    }
+}
+
+.program h1 {
+    font: bold 38px var(--aka);
+    text-align: center;
+    color: darkblue;
+}
+
+.front {
+    position: absolute;
+    top: 200px;
+    left: 10px;
+    margin-top: 100px;
+}
+
+
+/* .front {
+    position: absolute;
+    top: 60px;
+} */
+
+.front img {
+    width: 600px;
+    height: 230px;
+    margin-top: 10px;
+    size: cover;
+    border-radius: 0px 15px 15px 0px;
+}
+
+.back h1 {
+    font: bold 30px var(--aka);
+    color: black;
+    width: 300px;
+    text-align: center;
+    border-radius: 30px;
+    padding: 6px;
+    background-color: grey;
+    display: inline-block;
+    position: absolute;
+    top: 160px;
+    right: 100px;
+    animation-name: back;
+    animation-play-state: running;
+    animation-duration: 1s;
+    animation-fill-mode: forwards;
+}
+
+@keyframes back {
+    from {
+        right: -300px;
+    }
+    to {
+        right: 250px;
+    }
+}
+
+.backs {
+    position: absolute;
+    top: 200px;
+    right: 10px;
+    margin-top: 100px;
+}
+
+.backs img {
+    width: 600px;
+    height: 230px;
+    margin-top: 10px;
+    size: cover;
+    border-radius: 15px 0px 0px 15px;
+}
+
+.vs h1 {
+    color: #fff;
+    font: 700 100px var(--aka);
+    position: absolute;
+    top: 140px;
+    left: 618px;
+    animation-name: vs;
+    animation-play-state: running;
+    animation-duration: 1s;
+    animation-fill-mode: forwards;
+}
+
+@keyframes vs {
+    from {
+        top: -200px;
+    }
+    to {
+        top: 140px;
+    }
+}
+
+.html {
+    position: relative;
+    animation-name: htm;
+    animation-duration: 1.5s;
+    animation-timing-function: linear;
+    animation-fill-mode: forwards;
+}
+
+@keyframes htm {
+    0% {
+        left: -700px;
+    }
+    100% {
+        left: 30px;
+    }
+}
+
+.png {
+    position: relative;
+    animation-name: png;
+    animation-duration: 1.7s;
+    animation-timing-function: linear;
+    animation-fill-mode: forwards;
+}
+
+@keyframes png {
+    0% {
+        left: -700px;
+    }
+    100% {
+        left: 30px;
+    }
+}
+
+.bootstrap {
+    background-color: gray;
+    position: relative;
+    animation-name: bootstrap;
+    animation-duration: 1.9s;
+    animation-timing-function: linear;
+    animation-fill-mode: forwards;
+}
+
+@keyframes bootstrap {
+    0% {
+        left: -700px;
+    }
+    100% {
+        left: 30px;
+    }
+}
+
+.javascript {
+    position: relative;
+    animation-name: javascript;
+    animation-duration: 2.1s;
+    animation-timing-function: linear;
+    animation-fill-mode: forwards;
+}
+
+@keyframes javascript {
+    0% {
+        left: -700px;
+    }
+    100% {
+        left: 30px;
+    }
+}
+
+.react {
+    position: relative;
+    animation-name: react;
+    animation-duration: 2.3s;
+    animation-timing-function: linear;
+    animation-fill-mode: forwards;
+}
+
+@keyframes react {
+    0% {
+        left: -700px;
+    }
+    100% {
+        left: 30px;
+    }
+}
+
+
+/* back end */
+
+.php {
+    position: relative;
+    animation-name: php;
+    animation-duration: 1.5s;
+    animation-timing-function: linear;
+    animation-fill-mode: forwards;
+}
+
+@keyframes php {
+    0% {
+        right: -700px;
+    }
+    100% {
+        right: 30px;
+    }
+}
+
+.go {
+    position: relative;
+    animation-name: go;
+    animation-duration: 1.7s;
+    animation-timing-function: linear;
+    animation-fill-mode: forwards;
+}
+
+@keyframes go {
+    0% {
+        right: -700px;
+    }
+    100% {
+        right: 30px;
+    }
+}
+
+.java {
+    position: relative;
+    animation-name: java;
+    animation-duration: 1.9s;
+    animation-timing-function: linear;
+    animation-fill-mode: forwards;
+}
+
+@keyframes java {
+    0% {
+        right: -700px;
+    }
+    100% {
+        right: 30px;
+    }
+}
+
+.python {
+    position: relative;
+    animation-name: python;
+    animation-duration: 2.1s;
+    animation-timing-function: linear;
+    animation-fill-mode: forwards;
+}
+
+@keyframes python {
+    0% {
+        right: -700px;
+    }
+    100% {
+        right: 30px;
+    }
+}
+
+.sql {
+    position: relative;
+    animation-name: sql;
+    animation-duration: 2.3s;
+    animation-timing-function: linear;
+    animation-fill-mode: forwards;
+}
+
+@keyframes sql {
+    0% {
+        right: -700px;
+    }
+    100% {
+        right: 30px;
+    }
+}
